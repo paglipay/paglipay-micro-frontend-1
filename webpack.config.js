@@ -3,9 +3,9 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const Dotenv = require('dotenv-webpack');
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
-  output: {
-    publicPath: "http://localhost:3000/",
-  },
+  // output: {
+  //   publicPath: "https://paglipay-micro-frontend-1-74f97fe69c09.herokuapp.com/",
+  // },
 
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
